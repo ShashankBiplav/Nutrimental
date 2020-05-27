@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       ),
       home: CatergoriesScreen(),
       routes: {
-        '/categorymeals_Screen': (ctx) => CategoryMealsScreen(),
+        CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
       },
     );
   }
